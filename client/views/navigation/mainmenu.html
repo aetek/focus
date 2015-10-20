@@ -1,0 +1,13 @@
+<template name="mainMenu">
+	<div class="mainMenu">
+		{{#each menuItems}}
+			{{> menuItem}}
+		{{/each}}
+	</div>
+</template>
+
+<template name="menuItem">
+	<div class="menuItem">
+		<h3>{{generateLink}}</h3>
+	</div>
+</template>
